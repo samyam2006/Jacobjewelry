@@ -36,7 +36,7 @@
   // Scroll reveal
   var revealTargets = document.querySelectorAll(
     '.section__head, .collection, .custom__content, .custom__media, .service, ' +
-    '.about__content, .about__media, .quote, .visit__info, .visit__map, .cta-band__inner'
+    '.about__content, .about__media, .visit__info, .visit__map, .cta-band__inner'
   );
   revealTargets.forEach(function (el) { el.classList.add('reveal'); });
 

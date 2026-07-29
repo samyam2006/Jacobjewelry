@@ -478,30 +478,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.1; 
   filter: grayscale(0.2) drop-shadow(0 8px 20px rgba(0,0,0,0.4));
 }
 
-/* ---------- Testimonials ---------- */
-.testimonials { background: var(--paper); }
-.quotes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-.quote {
-  margin: 0;
-  padding: 32px 28px;
-  background: var(--cream);
-  border-radius: var(--radius);
-  border: 1px solid var(--line);
-}
-.quote__stars { color: var(--gold); letter-spacing: 3px; margin-bottom: 14px; }
-.quote blockquote {
-  margin: 0 0 16px;
-  font-family: var(--serif);
-  font-size: 1.2rem;
-  font-style: italic;
-  line-height: 1.5;
-}
-.quote figcaption { color: var(--muted); font-size: 0.9rem; letter-spacing: 0.04em; }
-
 /* ---------- Visit ---------- */
 .visit { background: var(--cream-2); }
 .visit__grid {
@@ -638,7 +614,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.1; 
   .custom__grid, .about__grid, .visit__grid { grid-template-columns: 1fr; }
   .about__media { order: -1; min-height: 300px; }
   .service-grid { grid-template-columns: 1fr 1fr; }
-  .quotes { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr 1fr; }
 }
 
