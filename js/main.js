@@ -35,8 +35,8 @@
 
   // Scroll reveal
   var revealTargets = document.querySelectorAll(
-    '.section__head, .collection, .custom__content, .custom__media, .service, ' +
-    '.about__content, .about__media, .visit__info, .visit__map, .cta-band__inner'
+    '.section__head, .cat, .feature__content, .feature__media, .service, ' +
+    '.visit__info, .visit__map, .cta__inner'
   );
   revealTargets.forEach(function (el) { el.classList.add('reveal'); });
 

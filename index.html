@@ -3,37 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jacob Jewelry Miami | Fine Jewelry, Diamonds & Custom Design</title>
-  <meta name="description" content="Jacob Jewelry Miami — fine jewelry, diamonds, custom designs, gold chains and watches in Downtown Miami. Visit us at 1 NE 1st St #105, Miami, FL 33132." />
+  <title>Jacob Jewelry Miami | Fine Jewelry, Diamonds &amp; Custom Design</title>
+  <meta name="description" content="Jacob Jewelry Miami — fine jewelry, diamonds, custom design, gold chains and watch service in the heart of Downtown Miami. 1 NE 1st St #105, Miami, FL 33132." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%8E%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 3h12l4 6-10 12L2 9z' fill='none' stroke='%23c9a227' stroke-width='1.4' stroke-linejoin='round'/%3E%3Cpath d='M2 9h20M8 3l-2 6 6 12M16 3l2 6-6 12' fill='none' stroke='%23c9a227' stroke-width='1'/%3E%3C/svg%3E" />
 </head>
 <body>
-  <!-- Announcement bar -->
+  <!-- Announcement -->
   <div class="announce">
     <div class="container announce__inner">
-      <span>Complimentary cleaning &amp; inspection on every visit</span>
-      <span class="announce__sep">•</span>
-      <span>Custom designs crafted in Downtown Miami</span>
+      <span>Complimentary cleaning &amp; inspection with every visit</span>
+      <span class="announce__dot"></span>
+      <span>Custom pieces designed &amp; crafted in Downtown Miami</span>
     </div>
   </div>
 
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#top" class="brand" aria-label="Jacob Jewelry Miami home">
-        <span class="brand__mark">JJ</span>
+      <a href="#top" class="brand" aria-label="Jacob Jewelry Miami — home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 3h12l4 6-10 12L2 9z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M2 9h20M8 3l-2 6 6 12M16 3l2 6-6 12" fill="none" stroke="currentColor" stroke-width="0.9"/></svg>
+        </span>
         <span class="brand__text">
           <span class="brand__name">Jacob Jewelry</span>
-          <span class="brand__sub">M I A M I</span>
+          <span class="brand__sub">Miami</span>
         </span>
       </a>
 
       <nav class="nav" id="nav" aria-label="Primary">
         <a href="#collections">Collections</a>
+        <a href="#signature">Signature</a>
         <a href="#custom">Custom Design</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
@@ -41,8 +44,8 @@
       </nav>
 
       <div class="header__actions">
-        <a href="tel:+17863027208" class="btn btn--ghost btn--sm header__call">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <a href="tel:+17863027208" class="header__call">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           <span>(786) 302-7208</span>
         </a>
         <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
@@ -55,114 +58,136 @@
   <main id="top">
     <!-- Hero -->
     <section class="hero">
-      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__media" aria-hidden="true"></div>
+      <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
-        <p class="hero__eyebrow">Downtown Miami &bull; Est. Miami</p>
-        <h1 class="hero__title">Jewelry Made<br /><em>Brilliantly</em> Personal</h1>
-        <p class="hero__lede">Ethically sourced diamonds, hand-finished gold, and one-of-a-kind custom pieces — designed with you at the heart of every detail.</p>
+        <p class="hero__eyebrow">Fine Jewelers &bull; Downtown Miami</p>
+        <h1 class="hero__title">Timeless pieces,<br /><em>made personal</em></h1>
+        <p class="hero__lede">Ethically sourced diamonds, solid-gold craftsmanship, and one-of-a-kind custom designs — created with care in the heart of Miami.</p>
         <div class="hero__cta">
-          <a href="#collections" class="btn btn--gold">Explore Collections</a>
-          <a href="#custom" class="btn btn--outline-light">Start a Custom Design</a>
+          <a href="#collections" class="btn btn--gold">Explore the Collection</a>
+          <a href="#custom" class="btn btn--outline">Design Something Custom</a>
         </div>
-        <ul class="hero__trust">
-          <li><strong>GIA</strong> Certified Diamonds</li>
-          <li><strong>Lifetime</strong> Care Plan</li>
-          <li><strong>In-House</strong> Master Jewelers</li>
-        </ul>
+      </div>
+      <div class="hero__trust">
+        <div class="container hero__trust-inner">
+          <span>GIA-Certified Diamonds</span>
+          <span>Master Jewelers On-Site</span>
+          <span>Lifetime Care &amp; Cleaning</span>
+          <span>Conflict-Free Sourcing</span>
+        </div>
       </div>
     </section>
-
-    <!-- Marquee -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee__track">
-        <span>Engagement Rings</span><span>&diams;</span>
-        <span>Cuban Links</span><span>&diams;</span>
-        <span>Custom Design</span><span>&diams;</span>
-        <span>Diamond Tennis Bracelets</span><span>&diams;</span>
-        <span>Fine Watches</span><span>&diams;</span>
-        <span>Wedding Bands</span><span>&diams;</span>
-        <span>Engagement Rings</span><span>&diams;</span>
-        <span>Cuban Links</span><span>&diams;</span>
-        <span>Custom Design</span><span>&diams;</span>
-        <span>Diamond Tennis Bracelets</span><span>&diams;</span>
-        <span>Fine Watches</span><span>&diams;</span>
-        <span>Wedding Bands</span><span>&diams;</span>
-      </div>
-    </div>
 
     <!-- Collections -->
     <section class="section" id="collections">
       <div class="container">
         <div class="section__head">
-          <p class="eyebrow">Shop by Category</p>
-          <h2 class="section__title">Our Collections</h2>
-          <p class="section__intro">From timeless engagement rings to bold Miami statement pieces, discover jewelry crafted to be worn and treasured for generations.</p>
+          <p class="eyebrow">Explore by Category</p>
+          <h2 class="section__title">The Collection</h2>
+          <p class="section__intro">From the ring that starts forever to the chain you never take off — thoughtfully curated and expertly crafted.</p>
         </div>
 
-        <div class="collections">
-          <article class="collection collection--tall">
-            <div class="collection__media collection--rings" aria-hidden="true"></div>
-            <div class="collection__body">
-              <h3>Engagement Rings</h3>
-              <p>Solitaires, halos &amp; custom settings</p>
-              <a href="#visit" class="link-arrow">Discover <span>&rarr;</span></a>
-            </div>
-          </article>
+        <div class="cats">
+          <a class="cat" href="#visit">
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.1"><circle cx="20" cy="25" r="9"/><path d="M14 17l3-6h6l3 6"/><path d="M20 11V7"/></svg>
+            </span>
+            <h3>Engagement Rings</h3>
+            <p>Solitaires, halos &amp; bespoke settings</p>
+            <span class="cat__link">View <span aria-hidden="true">&rarr;</span></span>
+          </a>
 
-          <article class="collection">
-            <div class="collection__media collection--chains" aria-hidden="true"></div>
-            <div class="collection__body">
-              <h3>Gold Chains &amp; Cuban Links</h3>
-              <p>10K–18K solid gold, Miami-made</p>
-              <a href="#visit" class="link-arrow">Discover <span>&rarr;</span></a>
-            </div>
-          </article>
+          <a class="cat" href="#visit">
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.1"><ellipse cx="15" cy="20" rx="6" ry="8"/><ellipse cx="25" cy="20" rx="6" ry="8"/></svg>
+            </span>
+            <h3>Gold Chains &amp; Cuban Links</h3>
+            <p>10K–18K solid gold, Miami-made</p>
+            <span class="cat__link">View <span aria-hidden="true">&rarr;</span></span>
+          </a>
 
-          <article class="collection">
-            <div class="collection__media collection--bracelets" aria-hidden="true"></div>
-            <div class="collection__body">
-              <h3>Diamond Bracelets</h3>
-              <p>Tennis &amp; bangle styles</p>
-              <a href="#visit" class="link-arrow">Discover <span>&rarr;</span></a>
-            </div>
-          </article>
+          <a class="cat" href="#visit">
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M8 20a12 6 0 0 0 24 0 12 6 0 0 0-24 0z"/><path d="M15 22l2 3h6l2-3"/></svg>
+            </span>
+            <h3>Diamond Bracelets</h3>
+            <p>Tennis &amp; bangle styles</p>
+            <span class="cat__link">View <span aria-hidden="true">&rarr;</span></span>
+          </a>
 
-          <article class="collection">
-            <div class="collection__media collection--watches" aria-hidden="true"></div>
-            <div class="collection__body">
-              <h3>Fine Watches</h3>
-              <p>Luxury timepieces &amp; servicing</p>
-              <a href="#visit" class="link-arrow">Discover <span>&rarr;</span></a>
-            </div>
-          </article>
+          <a class="cat" href="#visit">
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.1"><circle cx="20" cy="20" r="9"/><path d="M20 15v5l3 2"/><path d="M16 8h8M16 32h8"/></svg>
+            </span>
+            <h3>Fine Watches</h3>
+            <p>Luxury timepieces &amp; expert service</p>
+            <span class="cat__link">View <span aria-hidden="true">&rarr;</span></span>
+          </a>
 
-          <article class="collection collection--wide">
-            <div class="collection__media collection--necklaces" aria-hidden="true"></div>
-            <div class="collection__body">
-              <h3>Necklaces &amp; Pendants</h3>
-              <p>Diamond pendants, initials &amp; religious pieces</p>
-              <a href="#visit" class="link-arrow">Discover <span>&rarr;</span></a>
-            </div>
-          </article>
+          <a class="cat" href="#visit">
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M10 10a14 12 0 0 0 20 0"/><path d="M17 26l3 5 3-5z"/></svg>
+            </span>
+            <h3>Necklaces &amp; Pendants</h3>
+            <p>Diamond, initial &amp; religious pieces</p>
+            <span class="cat__link">View <span aria-hidden="true">&rarr;</span></span>
+          </a>
+
+          <a class="cat" href="#visit">
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M12 9h16l5 7-13 15L7 16z" stroke-linejoin="round"/><path d="M7 16h26M15 9l-3 7 8 15M25 9l3 7-8 15"/></svg>
+            </span>
+            <h3>Loose Diamonds</h3>
+            <p>Hand-selected, certified stones</p>
+            <span class="cat__link">View <span aria-hidden="true">&rarr;</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature feature -->
+    <section class="feature feature--dark" id="signature">
+      <div class="container feature__grid">
+        <div class="feature__media feature__media--signature" aria-hidden="true"></div>
+        <div class="feature__content">
+          <p class="eyebrow eyebrow--gold">The Signature</p>
+          <h2 class="section__title">Miami gold, done right</h2>
+          <p>Our solid-gold Cuban links and diamond pieces are cut, linked, and finished to a standard you can feel in the hand. No hollow shortcuts — only honest weight and a mirror polish that lasts.</p>
+          <ul class="feature__list">
+            <li>Solid 10K, 14K &amp; 18K gold — never plated</li>
+            <li>Diamonds set by hand, secured to last</li>
+            <li>Fair, transparent pricing by the gram</li>
+          </ul>
+          <a href="#visit" class="btn btn--gold">Visit the Showroom</a>
         </div>
       </div>
     </section>
 
     <!-- Custom Design -->
     <section class="section custom" id="custom">
-      <div class="container custom__grid">
-        <div class="custom__media" aria-hidden="true"></div>
-        <div class="custom__content">
+      <div class="container feature__grid">
+        <div class="feature__content">
           <p class="eyebrow">Bespoke &amp; One-of-a-Kind</p>
-          <h2 class="section__title">Custom Design, From Sketch to Sparkle</h2>
-          <p>Bring us an idea, a photo, or a piece of inspiration. Our master jewelers will guide you through every step — hand-selecting stones, refining a 3D design, and finishing your piece right here in Downtown Miami.</p>
+          <h2 class="section__title">Custom design, from sketch to sparkle</h2>
+          <p>Bring us an idea, a photo, or an heirloom to reimagine. Our master jewelers walk you through every step — selecting the stone, refining a 3D design, and finishing the piece by hand, right here in Downtown Miami.</p>
           <ol class="steps">
-            <li><span>01</span><div><strong>Consultation</strong><p>Share your vision and budget with our designers.</p></div></li>
-            <li><span>02</span><div><strong>Design &amp; Preview</strong><p>Review a detailed 3D rendering before we craft.</p></div></li>
-            <li><span>03</span><div><strong>Handcrafted</strong><p>Your piece is made, set, and polished in-house.</p></div></li>
+            <li>
+              <span class="steps__num">01</span>
+              <div><strong>Consultation</strong><p>Share your vision and budget with our designers.</p></div>
+            </li>
+            <li>
+              <span class="steps__num">02</span>
+              <div><strong>Design &amp; Preview</strong><p>Review a detailed 3D rendering before we begin.</p></div>
+            </li>
+            <li>
+              <span class="steps__num">03</span>
+              <div><strong>Handcrafted</strong><p>Your piece is cast, set, and polished in-house.</p></div>
+            </li>
           </ol>
-          <a href="#visit" class="btn btn--gold">Book a Consultation</a>
+          <a href="tel:+17863027208" class="btn btn--dark">Book a Consultation</a>
         </div>
+        <div class="feature__media feature__media--custom" aria-hidden="true"></div>
       </div>
     </section>
 
@@ -172,27 +197,36 @@
         <div class="section__head">
           <p class="eyebrow">Care &amp; Craftsmanship</p>
           <h2 class="section__title">Services</h2>
+          <p class="section__intro">Everything your jewelry needs, from first fitting to lifelong upkeep.</p>
         </div>
         <div class="service-grid">
           <div class="service">
-            <div class="service__icon">&#9878;</div>
+            <span class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4a6 6 0 0 0-7.8 7.8L5 20l3 3 8.2-8.2A6 6 0 0 0 24 7l-3.4 3.4-2.8-.8-.8-2.8L21 4z"/></svg>
+            </span>
             <h3>Jewelry &amp; Watch Repair</h3>
             <p>Sizing, prong retipping, restringing, and full watch servicing by experienced hands.</p>
           </div>
           <div class="service">
-            <div class="service__icon">&#128142;</div>
+            <span class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M9 5h14l5 7-12 15L4 12z"/><path d="M4 12h24M12 5l-3 7 7 15M20 5l3 7-7 15"/></svg>
+            </span>
             <h3>Diamond &amp; Gold Buying</h3>
-            <p>Fair, transparent appraisals when you're ready to sell or trade up.</p>
+            <p>Fair, transparent offers when you're ready to sell, trade, or upgrade.</p>
           </div>
           <div class="service">
-            <div class="service__icon">&#10024;</div>
+            <span class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4l2.5 6L25 12l-6.5 2L16 20l-2.5-6L7 12l6.5-2z"/><path d="M25 21l1 2.5L28 25l-2 1-1 2.5-1-2.5-2-1 2-1.5z"/></svg>
+            </span>
             <h3>Cleaning &amp; Inspection</h3>
             <p>Complimentary professional cleaning and inspection with every visit.</p>
           </div>
           <div class="service">
-            <div class="service__icon">&#128273;</div>
-            <h3>Appraisals</h3>
-            <p>Certified written appraisals for insurance and peace of mind.</p>
+            <span class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h13l5 5v19H7z"/><path d="M20 4v5h5"/><path d="M11 15h10M11 20h10"/></svg>
+            </span>
+            <h3>Certified Appraisals</h3>
+            <p>Written appraisals for insurance, estates, and peace of mind.</p>
           </div>
         </div>
       </div>
@@ -200,45 +234,45 @@
 
     <!-- About -->
     <section class="section about" id="about">
-      <div class="container about__grid">
-        <div class="about__content">
+      <div class="container feature__grid">
+        <div class="feature__content">
           <p class="eyebrow">Our Story</p>
-          <h2 class="section__title">Downtown Miami's Trusted Jeweler</h2>
-          <p>At Jacob Jewelry Miami, we believe fine jewelry should feel as personal as the moments it marks. Tucked in the heart of Downtown Miami, our showroom brings together hand-selected diamonds, solid gold craftsmanship, and a genuine, no-pressure experience.</p>
-          <p>Whether you're choosing the ring, upgrading your everyday chain, or dreaming up something entirely your own, we treat every piece — and every customer — like family.</p>
+          <h2 class="section__title">Downtown Miami's trusted jeweler</h2>
+          <p>At Jacob Jewelry, we believe fine jewelry should feel as personal as the moments it marks. Our Downtown Miami showroom brings together hand-selected diamonds, honest gold craftsmanship, and a genuinely no-pressure experience.</p>
+          <p>Whether you're choosing the ring, upgrading an everyday chain, or dreaming up something entirely your own, we treat every piece — and every person who walks in — like family.</p>
           <div class="about__stats">
             <div><strong>1,000+</strong><span>Custom pieces created</span></div>
-            <div><strong>5&#9733;</strong><span>Rated by our clients</span></div>
-            <div><strong>100%</strong><span>Conflict-free diamonds</span></div>
+            <div><strong>Certified</strong><span>Diamonds &amp; appraisals</span></div>
+            <div><strong>In-House</strong><span>Master jewelers</span></div>
           </div>
         </div>
-        <div class="about__media" aria-hidden="true"></div>
+        <div class="feature__media feature__media--about" aria-hidden="true"></div>
       </div>
     </section>
 
-    <!-- Visit / Contact -->
+    <!-- Visit -->
     <section class="section visit" id="visit">
       <div class="container visit__grid">
         <div class="visit__info">
           <p class="eyebrow">Come See Us</p>
-          <h2 class="section__title">Visit the Showroom</h2>
-          <p class="visit__lede">Stop by our Downtown Miami showroom — walk-ins welcome. For custom consultations, we recommend calling ahead.</p>
+          <h2 class="section__title">Visit the showroom</h2>
+          <p class="visit__lede">Walk-ins are always welcome. For custom consultations, we recommend calling ahead so we can give you our full attention.</p>
 
           <div class="visit__cards">
             <div class="info-card">
               <h3>Location</h3>
               <p>1 NE 1st St #105<br />Miami, FL 33132</p>
-              <a class="link-arrow" href="https://maps.google.com/?q=1+NE+1st+St+%23105+Miami+FL+33132" target="_blank" rel="noopener">Get Directions <span>&rarr;</span></a>
+              <a class="under-link" href="https://maps.google.com/?q=1+NE+1st+St+%23105+Miami+FL+33132" target="_blank" rel="noopener">Get Directions <span aria-hidden="true">&rarr;</span></a>
             </div>
             <div class="info-card">
               <h3>Contact</h3>
               <p><a href="tel:+17863027208">(786) 302-7208</a></p>
-              <a class="link-arrow" href="tel:+17863027208">Call Us <span>&rarr;</span></a>
+              <a class="under-link" href="tel:+17863027208">Call the Store <span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
 
           <div class="hours">
-            <h3>Hours</h3>
+            <h3>Store Hours</h3>
             <ul class="hours__list">
               <li><span>Monday</span><span>10:30 AM – 5:00 PM</span></li>
               <li><span>Tuesday</span><span>10:30 AM – 5:00 PM</span></li>
@@ -253,7 +287,7 @@
 
         <div class="visit__map">
           <iframe
-            title="Jacob Jewelry Miami location map"
+            title="Map to Jacob Jewelry Miami"
             src="https://www.google.com/maps?q=1%20NE%201st%20St%20%23105%2C%20Miami%2C%20FL%2033132&output=embed"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -262,12 +296,13 @@
       </div>
     </section>
 
-    <!-- CTA band -->
-    <section class="cta-band">
-      <div class="container cta-band__inner">
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta__inner">
         <div>
-          <h2>Ready to find something brilliant?</h2>
-          <p>Call us or visit the showroom — we'd love to help you find (or create) the perfect piece.</p>
+          <p class="eyebrow eyebrow--gold">Let's Begin</p>
+          <h2>Find something brilliant.</h2>
+          <p class="cta__text">Call us or stop by the showroom — we'd love to help you find, or create, the perfect piece.</p>
         </div>
         <a href="tel:+17863027208" class="btn btn--gold btn--lg">Call (786) 302-7208</a>
       </div>
@@ -278,16 +313,14 @@
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <span class="brand__mark">JJ</span>
-        <div>
-          <span class="brand__name">Jacob Jewelry</span>
-          <span class="brand__sub">M I A M I</span>
-        </div>
-        <p>Fine jewelry, diamonds &amp; custom design in the heart of Downtown Miami.</p>
+        <span class="brand__name">Jacob Jewelry <em>Miami</em></span>
+        <p>Fine jewelry, diamonds, and custom design in the heart of Downtown Miami.</p>
+        <a href="tel:+17863027208" class="footer__phone">(786) 302-7208</a>
       </div>
       <div class="footer__col">
         <h4>Explore</h4>
         <a href="#collections">Collections</a>
+        <a href="#signature">Signature Gold</a>
         <a href="#custom">Custom Design</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
@@ -295,17 +328,17 @@
       <div class="footer__col">
         <h4>Visit</h4>
         <p>1 NE 1st St #105<br />Miami, FL 33132</p>
-        <p><a href="tel:+17863027208">(786) 302-7208</a></p>
+        <a class="under-link" href="https://maps.google.com/?q=1+NE+1st+St+%23105+Miami+FL+33132" target="_blank" rel="noopener">Directions</a>
       </div>
       <div class="footer__col">
         <h4>Hours</h4>
-        <p>Mon–Thu: 10:30 AM – 5:00 PM<br />Fri: 10:30 AM – 3:30 PM<br />Sat–Sun: Closed</p>
+        <p>Mon – Thu&nbsp;&nbsp;10:30 AM – 5:00 PM<br />Friday&nbsp;&nbsp;10:30 AM – 3:30 PM<br />Sat – Sun&nbsp;&nbsp;Closed</p>
       </div>
     </div>
     <div class="footer__bar">
       <div class="container footer__bar-inner">
         <p>&copy; <span id="year"></span> Jacob Jewelry Miami. All rights reserved.</p>
-        <p>Downtown Miami &bull; (786) 302-7208</p>
+        <p>Downtown Miami, Florida</p>
       </div>
     </div>
   </footer>
